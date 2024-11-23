@@ -10,7 +10,10 @@ const secretKey = 'swarnajit01';
 
 
 app.use(cors());
-app.use(express.json());
+app.use(cors({ origin: 'https://repo1-rose.vercel.app/', 
+              methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+              credentials: true
+             }));
 
 
 mongoose.connect('mongodb+srv://swarnajit:aMF9PuWr9YgcTQA9@cluster0.94qfb.mongodb.net/Ecommerce', {
