@@ -1,0 +1,11 @@
+.product-list {
+    max-height: 500px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
