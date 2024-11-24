@@ -12,7 +12,7 @@ const Cart = () => {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    axios.get('http://localhost:5000/cart', {
+    axios.get('https://e-commerce-hosting-psi.vercel.app/cart', {
       headers: {
         'Authorization': token
       }
