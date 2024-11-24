@@ -12,7 +12,7 @@ const SignInForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const user = { email, password };
-    axios.post('http://localhost:5000/signin', user).then((response) => {
+    axios.post('https://e-commerce-hosting-psi.vercel.app/signin', user).then((response) => {
       console.log(response.data);
       localStorage.setItem('token', response.data.token);
       toast.success('Sign-in successful!',{position:'top-right',theme:'colored',autoClose: 3000});
