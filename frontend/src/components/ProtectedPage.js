@@ -6,7 +6,7 @@ const ProtectedPage = () => {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    axios.get('http://localhost:5000/protected', {
+    axios.get('https://e-commerce-hosting-psi.vercel.app/protected', {
       headers: {
         'Authorization': token
       }
