@@ -14,7 +14,7 @@ const ProductList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:5000/products').then((response) => {
+    axios.get('https://e-commerce-hosting-psi.vercel.app/products').then((response) => {
       setProducts(response.data);
     });
   }, []);
