@@ -25,7 +25,7 @@ const Cart = () => {
 
   const handleRemoveFromCart = (productId) => {
     const token = localStorage.getItem('token');
-    axios.delete(`http://localhost:5000/cart/${productId}`, {
+    axios.delete(`https://e-commerce-hosting-psi.vercel.app/cart/${productId}`, {
       headers: {
         'Authorization': token
       }
