@@ -16,6 +16,7 @@ const SignInForm = () => {
       console.log(response.data);
       localStorage.setItem('token', response.data.token);
       toast.success('Sign-in successful!',{position:'top-right',theme:'colored',autoClose: 3000});
+      window.location.reload(true);
       if (loginAsAdmin) {
         navigate('/admin');
       } else {
