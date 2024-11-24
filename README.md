@@ -2,7 +2,9 @@ WebSite Link- https://e-commerce-hosting-x12r.vercel.app/'
 
 Tools & Languages Used -: Reactjs , Mongodb , Expressjs and Nodejs (VsCode)
 
+
 Backend Implementation :
+
 --->Server Setup: Setting up an Express server to handle HTTP requests.
 
 --->Database Integration: Connecting to MongoDB (Cloud) for storing user, product, and order data.
@@ -12,6 +14,8 @@ Backend Implementation :
 --->Authentication: Implementing JWT (JSON Web Token) for secure user authentication and authorization.
 
 
+
+
 Frontend Implementation :
 
 --->UI Development: Creating the user interface for product listings, authentication, cart, and orders.
@@ -19,6 +23,8 @@ Frontend Implementation :
 --->API Integration: Connecting the frontend with the backend using Fetch or Axios to handle user actions like registration, sign-in, adding to cart, and placing orders.
 
 --->Routing: Setting up routes for different pages in the React application.
+
+
 
 
 Database (MongoDB):
