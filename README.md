@@ -28,25 +28,7 @@ Database (MongoDB):
 --->Data Operations: Performing CRUD (Create, Read, Update, Delete) operations on the database.
 
 
-
-+----------------------------------+
-|         React Frontend           |
-| (UI Development, API Integration)|
-+----------------------------------+
-                 |
-                 |
-                 v
-+----------------------------------+
-|   Express.js and Node.js Backend |
-|(Server Setup, API Endpoints, Auth)|
-+----------------------------------+
-                 |
-                 |
-                 v
-+----------------------------------+
-|          MongoDB Database        |
-|(Schema Design, CRUD Operations)  |
-+----------------------------------+
+![image](https://github.com/user-attachments/assets/a7d55904-d228-46aa-8825-53abd2a12669)
 
 
 Deployment (Vercel) :
