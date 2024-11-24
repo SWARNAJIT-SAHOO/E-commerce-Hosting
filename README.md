@@ -47,6 +47,10 @@ Deployment (Vercel) :
 
 --->ProjectUrL : https://e-commerce-hosting-x12r.vercel.app/
 
+Deployment : 
+
+![image](https://github.com/user-attachments/assets/9ff16453-83ef-4dd2-830f-2640b412b65d)
+
 
 Mobile View
 ![image](https://github.com/user-attachments/assets/8a94a770-f1c2-4b96-8264-b8a91e380dd7)
