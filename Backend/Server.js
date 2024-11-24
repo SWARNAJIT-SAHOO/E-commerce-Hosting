@@ -9,7 +9,7 @@ const port = 5000;
 const secretKey = 'swarnajit01'; 
 
 app.use(cors());
-app.use(cors({ origin: 'https://e-commerce-hosting-x12r.vercel.app/', 
+app.use(cors({ origin: 'https://e-commerce-hosting-x12r.vercel.app', 
               methods: ['GET', 'POST', 'PUT', 'DELETE'], 
               credentials: true
 }));
