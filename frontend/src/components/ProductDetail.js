@@ -7,7 +7,7 @@ const ProductDetail = () => {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/products/${id}`).then((response) => {
+    axios.get(`https://e-commerce-hosting-psi.vercel.app/products/${id}`).then((response) => {
       setProduct(response.data);
     });
   }, [id]);
