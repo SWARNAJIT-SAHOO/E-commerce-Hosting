@@ -4,9 +4,9 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 
-const app = express();
-const port = 5000;
-const secretKey = 'swarnajit01'; 
+const app = express(); 
+const port = process.env.PORT || 5000;
+const secretKey = 'swarnajit01';
 
 app.use(cors());
 app.use(cors({ origin: 'https://e-commerce-hosting-x12r.vercel.app', 
