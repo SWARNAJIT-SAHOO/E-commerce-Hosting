@@ -53,3 +53,7 @@ Mobile View
 
 ![image](https://github.com/user-attachments/assets/f90dc0de-c06c-412a-b33f-14dbd54d3927)
 
+Destop View: 
+
+![image](https://github.com/user-attachments/assets/5135f83d-0e3a-4ef1-aff5-c2c3d5db9961)
+
