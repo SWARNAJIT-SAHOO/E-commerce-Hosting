@@ -37,7 +37,7 @@ const AdminProductList = () => {
 
   const handleDelete = (id) => {
     const token = localStorage.getItem('token');
-    axios.delete(`http://localhost:5000/products/${id}`, {
+    axios.delete(`https://e-commerce-hosting-psi.vercel.app/products/${id}`, {
       headers: {
         'Authorization': token
       }
@@ -52,7 +52,7 @@ const AdminProductList = () => {
 
   const handleAddToCart = (productId) => {
     const token = localStorage.getItem('token');
-    axios.post('http://localhost:5000/cart', { productId }, {
+    axios.post('https://e-commerce-hosting-psi.vercel.app/cart', { productId }, {
       headers: {
         'Authorization': token
       }
