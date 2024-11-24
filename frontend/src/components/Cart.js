@@ -44,7 +44,7 @@ const Cart = () => {
   };
 
   const handleConfirmOrder = () => { const token = localStorage.getItem('token'); 
-    axios.post('http://localhost:5000/orders',
+    axios.post('https://e-commerce-hosting-psi.vercel.app/orders',
        { productId: selectedProduct._id, quantity }, 
        { headers: { 'Authorization': token } })
        .then(() => { toast.success('Order placed successfully!');
