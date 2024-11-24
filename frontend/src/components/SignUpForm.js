@@ -15,11 +15,11 @@ const SignUpForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!agreement) {
-      alert('You must agree to the terms and conditions');
+      toast.info('You must agree to the terms and conditions');
       return;
     }
     const newUser = { name, username, email, password };
-    axios.post('http://localhost:5000/register', newUser).then((response) => {
+    axios.post('https://e-commerce-hosting-psi.vercel.app/register', newUser).then((response) => {
       console.log(response.data);
       setName('');
       setUsername('');
