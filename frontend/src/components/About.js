@@ -39,7 +39,7 @@ const About = ({ isAuthenticated }) => {
             Our chairs are crafted with the highest quality materials and the latest ergonomic designs to ensure maximum comfort. 
             Whether you need a chair for long shopping trips or just a quick visit to the store, we have the perfect chair for you.
           </p>
-          <Button variant="primary" onClick={handleExploreProducts}>Explore Our Products</Button>
+          <Button variant="outline-dark" onClick={handleExploreProducts}>Explore Our Products</Button>
         </Col>
       </Row>
       <Row className="mt-4">
