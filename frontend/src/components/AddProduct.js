@@ -15,7 +15,7 @@ const AddProduct = () => {
     e.preventDefault();
     const newProduct = { name, description, price, stock, imageUrl };
     const token = localStorage.getItem('token');
-    axios.post('http://localhost:5000/products', newProduct, {
+    axios.post('https://e-commerce-hosting-psi.vercel.app/products', newProduct, {
       headers: {
         'Authorization': token
       }
