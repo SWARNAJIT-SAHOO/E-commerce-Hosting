@@ -14,7 +14,7 @@ const ProductList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Reload the page on initial render
+    
     if (!sessionStorage.getItem('reloaded')) {
       sessionStorage.setItem('reloaded', true);
       window.location.reload(true);
