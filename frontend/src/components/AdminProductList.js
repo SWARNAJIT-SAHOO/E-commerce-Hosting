@@ -14,7 +14,15 @@ const AdminProductList = () => {
   const [showCart, setShowCart] = useState(false);
   const [showProduct, setShowProduct] = useState(false);
   const navigate = useNavigate();
-
+ useEffect(() => {
+    
+    if (!sessionStorage.getItem('reloaded')) {
+      sessionStorage.setItem('reloaded', true);
+      window.location.reload(true);
+    } else {
+      sessionStorage.removeItem('reloaded');
+    }
+  }, []);
   useEffect(() => {
     axios.get('https://e-commerce-hosting-psi.vercel.app/products').then((response) => {
       setProducts(response.data);
