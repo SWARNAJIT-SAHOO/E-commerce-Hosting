@@ -22,7 +22,7 @@ Frontend Implementation :
 
 --->UI Development: Creating the user interface for product listings, authentication, cart, and orders.
 
---->API Integration: Connecting the frontend with the backend using Fetch or Axios to handle user actions like registration, sign-in, adding to cart, and placing orders.
+--->API Integration: Connecting the frontend with the backend using  Axios to handle user actions like registration, sign-in, adding to cart, and placing orders.
 
 --->Routing: Setting up routes for different pages in the React application.
 
