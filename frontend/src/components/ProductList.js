@@ -14,7 +14,16 @@ const ProductList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    window.location.reload(true);
+    // Reload the page on initial render
+    if (!sessionStorage.getItem('reloaded')) {
+      sessionStorage.setItem('reloaded', true);
+      window.location.reload(true);
+    } else {
+      sessionStorage.removeItem('reloaded');
+    }
+  }, []);
+
+  useEffect(() => {
     axios.get('https://e-commerce-hosting-psi.vercel.app/products').then((response) => {
       setProducts(response.data);
     });
@@ -31,7 +40,7 @@ const ProductList = () => {
       toast.success('Product deleted successfully!');
     }).catch(error => {
       console.error('There was an error deleting the product!', error);
-      toast.error('Failed to delete product.',{position:'top-right',theme:'colored',autoClose: 3000});
+      toast.error('Failed to delete product.', { position: 'top-right', theme: 'colored', autoClose: 3000 });
     });
   };
 
@@ -103,8 +112,8 @@ const ProductList = () => {
           {showCart && <Cart />}
         </Col>
       </Row>
-      <br></br>
-      <Footer/>
+      <br />
+      <Footer />
     </Container>
   );
 };
