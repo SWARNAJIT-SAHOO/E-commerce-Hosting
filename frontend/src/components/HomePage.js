@@ -24,12 +24,12 @@ const HomePage = () => {
             </div>
           </Col>
           <Col xs={12} md={6} lg={5} className="order-md-1 mb-md-0 mb-5">
-            <Image fluid src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="Remote Work Illustration" />
+            <Image fluid src="https://cdni.iconscout.com/illustration/premium/thumb/product-management-illustration-download-in-svg-png-gif-file-formats--manufacturing-package-box-people-activities-set-02-pack-business-illustrations-7897509.png" alt="Remote Work Illustration" />
           </Col>
         </Row>
         <Row className="justify-content-center mt-5">
           <Col xs={4}  md={6} lg={5} className="order-md-1 mb-md-0 mb-5">
-            <Image fluid src="https://i.ibb.co/2M7rtLk/Remote1.png" alt=" Solution Icon" />
+            <Image fluid src="https://cdni.iconscout.com/illustration/premium/thumb/e-commerce-delivery-management-illustration-download-in-svg-png-gif-file-formats--product-process-pack-business-illustrations-4772698.png" alt=" Solution Icon" />
           </Col>
         </Row>
         <Row>
